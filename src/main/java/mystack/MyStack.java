@@ -3,7 +3,7 @@ package java.mystack;
 import java.util.EmptyStackException;
 import java.util.Vector;
 
-public class MyStack<E> extends Vector<E> {
+public class MyStack<E> extends MyVector<E> {
     public MyStack() {
     }
 
